@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="3" verbose="2" preserve-order="true" name="F:/UNIVERSITY/Sem_07/IS4102_ASQA/1assignmentexampe/Assignment">
+        <classes>
+            <class name="tests.searchTest">
+                <methods>
+                    <include name="searchMobilePhones"/>
+                    <include name="searchMotorola"/>
+                    <include name="searchItems"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
