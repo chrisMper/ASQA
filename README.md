@@ -20,32 +20,37 @@ HomePage: Represents the main or landing page of the application, containing web
 MobilePage: Represents a specific page related to mobile product listings, containing methods for interacting with mobile-specific elements.
 MotorolaPage: Dedicated to the Motorola product page, holding locators and actions for this specific brand page.
 SearchPage: Contains the locators and methods needed for search functionality interactions.
+
 tests/searchTest
 Description: Contains test classes focusing on search functionalities.
 Test Class: Typically includes methods annotated with @Test that validate various search-related scenarios.
+
 utilities
 Description: Includes utility classes that provide reusable methods and functionality to support test execution.
+
 Classes:
 BrowserFactory: A utility class for initializing and managing browser instances.
 CategoriesDataProvider: Supplies data for test methods using @DataProvider to handle multiple test cases efficiently.
 ExcelUtilities: A helper class for reading and writing data from/to Excel files.
 TestNGUtilities: Contains common utilities that assist with the execution of TestNG test cases.
+
 Framework Features
 Page Object Model (POM): Enhances code readability and maintainability.
 TestNG Integration: Manages test execution and reporting.
 Data-Driven Testing: Supported through CategoriesDataProvider and ExcelUtilities for external data input.
 Browser Management: Centralized setup and teardown methods using BrowserFactory.
+
 Installation and Setup
+
 Clone the repository:
-bash
 "git clone [https://github.com/chrisMper/ASQA.git]"
 Import the project into your preferred IDE (e.g., IntelliJ IDEA or Eclipse).
+
 Ensure dependencies are met by installing them via Maven:
-bash
 "mvn install"
+
 Run tests: You can execute tests via the TestNG XML file (testng.xml) located in the project root.
-bash
-"mvn test"
+
 Usage
 Page Classes: Interact with web elements and execute actions relevant to each page.
 Test Classes: Include @Test annotated methods that use page class methods to validate application functionality.
