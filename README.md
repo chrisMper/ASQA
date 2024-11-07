@@ -10,6 +10,7 @@ The project directory is divided into the following sections:
 
 
 Purpose: Contains main application code and resources.
+
 Subdirectories:
 resources/ – Reserved for any main project resources that may be needed.
 
