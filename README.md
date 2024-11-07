@@ -8,11 +8,13 @@ The project directory is divided into the following sections:
 
 1. src/main/java
 
+
 Purpose: Contains main application code and resources.
 Subdirectories:
 resources/ – Reserved for any main project resources that may be needed.
 
 2. src/test/java
+
 Purpose: Contains all the test code and related classes.
 
 Subdirectories:
