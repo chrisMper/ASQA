@@ -45,7 +45,7 @@ The project directory is divided into the following sections:
 ## Installation and Setup
 1. **Clone the repository**:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/chrisMper/ASQA.git
 2. **Import the project into your preferred IDE (e.g., IntelliJ IDEA or Eclipse)**.
 3. **Ensure dependencies are met by installing them via Maven:**
    ```bash
