@@ -1,4 +1,5 @@
 Overview
+
 This project is a Test Automation Framework designed for web application testing using Java. The framework is structured with best practices in mind, following the Page Object Model (POM) design pattern to improve test maintenance and reduce code duplication. The structure includes well-organized packages for different components such as pages, utilities, and test cases.
 
 Project Structure
